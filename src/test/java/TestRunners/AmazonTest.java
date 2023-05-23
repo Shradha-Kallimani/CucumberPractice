@@ -1,4 +1,4 @@
-/*package TestRunners;
+package TestRunners;
 
 import org.junit.runner.RunWith;
 
@@ -7,10 +7,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/resources/AppFeatures"},
-		glue = {"StepDefination"},
+		features = {"src/test/resources/AppFeatures/Search.feature"},
+		glue = {"StepDefination", "MyHooks"},
+		tags = "@Smoke",
 		plugin = {"pretty"}
 		)
 public class AmazonTest {
 
-}*/
+}
