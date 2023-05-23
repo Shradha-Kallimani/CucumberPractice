@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunners.UberTest" time="0.121" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunners.OderTest" time="0.99" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Booking Cab Sedan" classname="User Booking Feature" time="0.083"/>
-  <testcase name="Booking Cab SUV" classname="User Booking Feature" time="0.011"/>
-  <testcase name="Booking Cab Mini" classname="User Booking Feature" time="0.014"/>
+  <testcase name="Check Previous order details" classname="Amazon Orger page" time="0.25"/>
+  <testcase name="Check Open order details" classname="Amazon Orger page" time="0.024"/>
+  <testcase name="Check Cancelled order details" classname="Amazon Orger page" time="0.02"/>
 </testsuite>
