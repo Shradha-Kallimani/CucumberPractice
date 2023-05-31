@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-30T16:01:34.069Z",
+        "line": 3,
+        "name": "User registration with different data set",
+        "description": "",
+        "id": "user-registration;user-registration-with-different-data-set",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8035400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on registration page",
+            "match": {
+              "location": "StepDefination.UserRegistrationSteps.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2992900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters following user details",
+            "match": {
+              "location": "StepDefination.UserRegistrationSteps.user_enters_following_user_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "shradha",
+                  "automation",
+                  "shradha@gmail.com",
+                  "9873282332",
+                  "Coventry"
+                ]
+              },
+              {
+                "cells": [
+                  "Jane",
+                  "Dogh",
+                  "jane@gmail.com",
+                  "9873282331",
+                  "London"
+                ]
+              },
+              {
+                "cells": [
+                  "Jonh",
+                  "Dogh",
+                  "john@gmail.com",
+                  "9873282330",
+                  "Lake district"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 994100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user registration should be successful",
+            "match": {
+              "location": "StepDefination.UserRegistrationSteps.user_registration_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-30T16:01:34.235Z",
+        "line": 11,
+        "name": "User registration with different data with column",
+        "description": "",
+        "id": "user-registration;user-registration-with-different-data-with-column",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on registration page",
+            "match": {
+              "location": "StepDefination.UserRegistrationSteps.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3027900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters following user details with column",
+            "match": {
+              "location": "StepDefination.UserRegistrationSteps.user_enters_following_user_details_with_column(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Email",
+                  "Phone number",
+                  "City"
+                ]
+              },
+              {
+                "cells": [
+                  "shradha",
+                  "automation",
+                  "shradha@gmail.com",
+                  "9873282332",
+                  "Coventry"
+                ]
+              },
+              {
+                "cells": [
+                  "Jane",
+                  "Dogh",
+                  "jane@gmail.com",
+                  "9873282331",
+                  "London"
+                ]
+              },
+              {
+                "cells": [
+                  "Jonh",
+                  "Dogh",
+                  "john@gmail.com",
+                  "9873282330",
+                  "Lake district"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user registration should be successful",
+            "match": {
+              "location": "StepDefination.UserRegistrationSteps.user_registration_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User registration",
+    "description": "",
+    "id": "user-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/registration.feature",
+    "tags": []
+  }
+]

@@ -10,6 +10,7 @@ Then Driver starts the journey
 And Driver ends the journey 
 Then User pays 1000 pounds 
 
+
 @Regression
 Scenario: Booking Cab SUV
 Given User wants to select a car type "SUV" from Uber app 
